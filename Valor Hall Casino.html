@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--Andrew Waddell, CSC 102 Build Blocks Assignment-->
+<html lang="en">
+<head>
+    <!--This is where my title for my webpage goes-->
+    <title>Valor Hall Casino</title>
+    <!--This links my css file to my HTML-->
+    <link href="ValorHallStyle.css" rel="stylesheet" type="text/css"/>
+    <!--This links my js file to my HTML-->
+    <script src="ValorHallCode.js"></script>
+    </head>
+<body>
+    <h1>
+        Welcome to Valor Hall! Come and fill your horn and gamble with the Gods!
+    </h1>
+    <h2> 
+        Nine Sided Craps 
+    </h2>
+    <p> 
+        Craps with two mythcial nine sided dice. The rules are simple.
+        <br>
+        The Gods will not favor a 9 or 13.
+        <br>
+        They favor two of the same number
+        <br>
+        All other numbers grant you a fortunate reroll
+    </p>
+    <br>
+    <p>
+        May the odds be ever in your favor.
+    </p>
+    <!--This is the button we use to start he game. It is linked to the function in the js file-->
+    <button onclick="play()" class="crapsWithButtons">ROLL EM!</button>
+    <br>
+    <h3>
+        Craps Results
+    </h3>
+    <br>
+    <!--This is where the results from the die are displayed along with the sum and winning or losing-->
+    <div id="die1Res">Die 1 Result...</div>
+    <div id="die2Res">Die 2 Result...</div>
+    <div id="sumRes">And the results are?!?</div>
+    <div id="finalRes">Do the Gods favor you?</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button onclick="returnHome()" class="returnToHomePage">Return to LZ</button>
+</body>
+</html>
